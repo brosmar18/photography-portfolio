@@ -1,4 +1,47 @@
 .service {
+  border: 1px solid red;
   height: 100vh;
-  width: 100%;
+  max-width: 100%;
+  padding: 68.5px 112px 24.5px;
+  overflow: hidden;
+
+  h2 {
+    width: 1098px;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 28px;
+  }
+
+  p {
+    width: 1215px;
+    height: 113px;
+    color: #fff;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 25px;
+  }
+
+  .service__imgs {
+    width: 1489px;
+    display: flex;
+    gap: 25px;
+    .service__img-one {
+      width: 732px;
+      height: 579px;
+      background: #d9d9d9;
+    }
+    .service__img-two {
+      width: 732px;
+      height: 579px;
+      background: #d9d9d9;
+    }
+  }
 }

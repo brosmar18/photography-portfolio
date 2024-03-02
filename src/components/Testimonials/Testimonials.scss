@@ -1,0 +1,71 @@
+.testimonials {
+  padding: 50px 112px;
+  height: 100vh;
+
+  h2 {
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 748px;
+    margin: 0 auto 13px;
+  }
+
+  p {
+    width: 834px;
+    height: 52px;
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 auto 220px;
+  }
+
+  .reviews {
+    height: 325px;
+    display: flex;
+    gap: 42px;
+
+    .review {
+      display: flex;
+      align-items: start;
+      gap: 42px;
+      .img {
+        width: 106px;
+        height: 106px;
+        background-color: #d9d9d9;
+        border-radius: 50%;
+      }
+      .text {
+        h3 {
+          color: #fff;
+          font-family: Montserrat;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          text-transform: capitalize;
+          text-align: left;
+        }
+        p {
+          color: #fff;
+          font-family: Montserrat;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          width: 440px;
+          height: 178px;
+          text-align: left;
+        }
+      }
+    }
+  }
+}

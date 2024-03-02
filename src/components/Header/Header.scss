@@ -10,7 +10,10 @@
     .header__imgOne {
       width: 438px;
       height: 633px;
-      background: #d9d9d9;
+      background-image: url("../../assets/hero01.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
       position: absolute;
       z-index: 0;
       left: -93px;
@@ -21,7 +24,10 @@
     .header__imgTwo {
       width: 519px;
       height: 750px;
-      background: #d9d9d9;
+      background-image: url("../../assets/hero02.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
       position: absolute;
       z-index: 20;
       top: 24.5px;

@@ -1,0 +1,52 @@
+.service {
+  height: 100vh;
+  max-width: 100%;
+  padding: 50px 112px 0;
+  overflow: hidden;
+
+  h2 {
+    width: 1098px;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 28px;
+  }
+
+  p {
+    width: 1215px;
+    height: 113px;
+    color: #fff;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 25px;
+  }
+
+  .service__imgs {
+    width: 1489px;
+    display: flex;
+    gap: 25px;
+    .service__img-one {
+      width: 732px;
+      height: 579px;
+      background-image: url(../../assets/portrait-two.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .service__img-two {
+      width: 732px;
+      height: 579px;
+      background-image: url(../../assets/portrait-one.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+}

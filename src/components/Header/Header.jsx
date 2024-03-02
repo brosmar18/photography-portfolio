@@ -2,7 +2,7 @@ import "./Header.scss";
 
 const Header = () => {
   return (
-    <div className="header" id="home">
+    <header className="header" id="home">
       <div className="header__images">
         <div className="header__imgOne" />
         <div className="header__imgTwo" />
@@ -25,7 +25,7 @@ const Header = () => {
           </button>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 

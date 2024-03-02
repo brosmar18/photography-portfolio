@@ -1,13 +1,14 @@
 import "./App.scss";
-import { Header, Navbar, Service, Experiences } from "./components";
+import { Header, Navbar, Partners, Experiences, Services } from "./components";
 
 const App = () => {
   return (
     <div className="app">
       <Navbar />
       <Header />
-      <Service />
+      <Partners />
       <Experiences />
+      <Services />
     </div>
   );
 };

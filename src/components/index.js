@@ -1,6 +1,7 @@
 import Header from "./Header/Header";
 import Navbar from "./Navbar/Navbar";
-import Service from "./Service/Service";
+import Partners from "./Partners/Partners";
 import Experiences from "./Experiences/Experiences";
+import Services from "./Services/Services";
 
-export { Header, Navbar, Service, Experiences };
+export { Header, Navbar, Partners, Experiences, Services };

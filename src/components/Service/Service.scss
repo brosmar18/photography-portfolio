@@ -2,7 +2,7 @@
   border: 1px solid red;
   height: 100vh;
   max-width: 100%;
-  padding: 68.5px 112px 24.5px;
+  padding: 50px 112px 0;
   overflow: hidden;
 
   h2 {
@@ -36,7 +36,10 @@
     .service__img-one {
       width: 732px;
       height: 579px;
-      background: #d9d9d9;
+      background-image: url(../../assets/portrait-one.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
     }
     .service__img-two {
       width: 732px;

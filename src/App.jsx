@@ -1,5 +1,5 @@
 import "./App.scss";
-import { Header, Navbar, Service } from "./components";
+import { Header, Navbar, Service, Experiences } from "./components";
 
 const App = () => {
   return (
@@ -7,6 +7,7 @@ const App = () => {
       <Navbar />
       <Header />
       <Service />
+      <Experiences />
     </div>
   );
 };

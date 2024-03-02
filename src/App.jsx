@@ -1,12 +1,13 @@
-import './App.scss';
-import Navbar from './components/Navbar/Navbar';
+import "./App.scss";
+import { Navbar, Header } from "./components";
 
 const App = () => {
   return (
-    <div className='app'>
+    <div className="app">
       <Navbar />
+      <Header />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

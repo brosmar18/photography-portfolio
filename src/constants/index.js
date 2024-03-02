@@ -8,6 +8,10 @@ export const navLinks = [
     route: "#service",
   },
   {
+    label: "Experiences",
+    route: "#experiences",
+  },
+  {
     label: "Projects",
     route: "#projects",
   },

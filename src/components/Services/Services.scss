@@ -1,0 +1,89 @@
+.services {
+  height: 100vh;
+  padding: 50px 112px 0;
+
+  .services__heading {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    h2 {
+      width: 574px;
+      font-family: Montserrat;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: capitalize;
+    }
+    p {
+      width: 1129px;
+      height: 105px;
+      font-family: Montserrat;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  .services__categories {
+    margin-top: 120px;
+    display: flex;
+    gap: 36px;
+
+    .photos {
+      padding: 31px 75px 0 27px;
+      width: 591px;
+      height: 202px;
+      background: #0f0f10;
+      h3 {
+        font-family: Montserrat;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-bottom: 12px;
+      }
+      p {
+        width: 489px;
+        height: 96px;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+
+    .weddings {
+      padding: 31px 75px 0 27px;
+      width: 591px;
+      height: 202px;
+      background: #0f0f10;
+
+      h3 {
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-bottom: 12px;
+      }
+
+      p {
+        width: 489px;
+        height: 96px;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+}

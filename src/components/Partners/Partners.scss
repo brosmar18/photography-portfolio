@@ -1,4 +1,4 @@
-.service {
+.partners {
   height: 100vh;
   padding: 50px 112px 0;
   overflow: hidden;
@@ -27,11 +27,11 @@
     margin-bottom: 25px;
   }
 
-  .service__imgs {
+  .partners__imgs {
     width: 1489px;
     display: flex;
     gap: 25px;
-    .service__img-one {
+    .partners__img-one {
       width: 732px;
       height: 579px;
       background-image: url(../../assets/portrait-two.png);
@@ -39,7 +39,7 @@
       background-position: center;
       background-repeat: no-repeat;
     }
-    .service__img-two {
+    .partners__img-two {
       width: 732px;
       height: 579px;
       background-image: url(../../assets/portrait-one.png);

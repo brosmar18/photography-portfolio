@@ -1,5 +1,39 @@
 .footer {
-    padding: 50px 112px;
-    height: 100vh;
-  
+  padding: 50px 112px;
+
+  h2 {
+    width: 466px;
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0 auto 72px;
+  }
+
+  .images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 62px;
+
+    img {
+      width: 48px;
+      height: 46px;
+    }
+  }
+
+  p {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20.1px;
+    text-align: center;
+    margin-top: 70px;
+  }
 }
